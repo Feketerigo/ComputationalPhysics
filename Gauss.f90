@@ -30,6 +30,7 @@ implicit none
 	end do
 
 	write(*, *) m
+	write(*, *) 
 
 	z = m(4, 3) / m(3, 3)
 	y = (m(4, 2) - m(3, 2) * z) / m(2, 2)
